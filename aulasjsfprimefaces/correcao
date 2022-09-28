@@ -1,0 +1,29 @@
+br.com.project.model.classes.Estado
+
+27	//import com.sun.istack.internal.NotNull;
+60	//@NotNull
+
+
+WEB-INF/applicationContext.xml
+
+45	<!-- 
+	<bean id="flyway" class="org.flywaydb.core.Flyway" init-method="migrate" 
+	   lazy-init="false" >
+		 <property name="dataSource" ref="springDataSource"/>	
+		 <property name="baselineOnMigrate" value="true"/>
+		 <property name="table" value="version"/>
+		 <property name="sqlMigrationPrefix" value="v"/>
+		 <property name="sqlMigrationSeparator" value="_"/>
+		 <property name="encoding" value="ISO-8859-1"/>
+		 <property name="validateOnMigrate" value="true"/>
+	</bean>
+56	-->
+
+18:14
+templates/templatePrincipal.xhtml
+
+		<!-- <h:outputLabel value="#{entidadeBeanView.ultimoAcesso}"
+ 			  id="saidaUltimoAcesso">
+			<f:convertDateTime locale="pt_BR" pattern="dd/MM/yyyy HH:mm:ss"
+			dateStyle="long" timeStyle="full" timeZone="GMT-03:00"/> 				  	 	
+ 		  	 </h:outputLabel> -->
