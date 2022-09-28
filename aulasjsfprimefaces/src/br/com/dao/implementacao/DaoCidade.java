@@ -9,7 +9,7 @@ import br.com.repository.interfaces.RepositoryCidade;
 @Repository
 public class DaoCidade extends ImplementacaoCrud<Cidade> implements
 		RepositoryCidade {
-	//
+	
 	private static final long serialVersionUID = 1L;
 
 }
